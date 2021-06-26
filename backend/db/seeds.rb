@@ -7,5 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.destroy_all
+Note.destroy_all
 
 dev = User.create(username: "Dev", password: "555")
+note = Note.create(content: "Test Note")
+anothernote = Note.create(content: "Test Note2")
